@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <name>CITlabLicensedBom</name>
+
+    <groupId>de.uros.citlab</groupId>
+    <artifactId>licensed_bom</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+
+    <!--<parent>-->
+    <!--<groupId>de.uro.citlab</groupId>-->
+    <!--<artifactId>parent_pom</artifactId>-->
+    <!--<version>1.0</version>-->
+    <!--</parent>-->
+    <dependencyManagement>
+        <dependencies>
+
+            <!--NOT FOR COMMERCIAL USE-->
+            <dependency>
+                <groupId>de.uros.citlab</groupId>
+                <artifactId>gcoj</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!--GNU Lesser General Public License, Version 2-->
+            <dependency>
+                <groupId>com.panayotis</groupId>
+                <artifactId>javaplot</artifactId>
+                <version>0.5.0</version>
+            </dependency>
+
+            <!--NOT OPEN BUT LICENSES CAN BE BOUGHT-->
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>globalPom</artifactId>
+                <version>1.0.57</version>
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>misc</artifactId>
+                <version>0.15.0</version>
+                <!--<version>${planet.misc.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>itrtech</artifactId>
+                <version>0.7.0</version>
+                <!--<version>${planet.itrtech.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>citech</artifactId>
+                <version>0.3.0</version>
+                <!--<version>${planet.citech.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>logging</artifactId>
+                <version>0.1.0</version>
+                <!--<version>${planet.logging.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>langmod</artifactId>
+                <version>0.4.0</version>
+                <!--<version>${planet.langmod.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>util</artifactId>
+                <version>0.8.0</version>
+                <!--<version>${planet.util.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>decoding</artifactId>
+                <version>0.4.0</version>
+                <!--<version>${planet.decoding.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>math</artifactId>
+                <version>0.3.0</version>
+                <!--<version>${planet.decoding.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>math_pc</artifactId>
+                <version>0.1.0</version>
+                <!--<version>${planet.decoding.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>imaging</artifactId>
+                <version>0.19.0</version>
+                <!--<version>${planet.decoding.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>imaging_pc</artifactId>
+                <version>0.6.0</version>
+                <!--<version>${planet.decoding.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>roi_core</artifactId>
+                <version>0.6.0</version>
+                <!--<version>${planet.decoding.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>sprnn</artifactId>
+                <version>0.3.0</version>
+                <!--<version>${planet.decoding.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>trainer</artifactId>
+                <version>0.3.0</version>
+                <!--<version>${planet.decoding.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>misc_pc</artifactId>
+                <version>0.1.0</version>
+                <!--<version>${planet.decoding.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
+                <artifactId>regexdecoding</artifactId>
+                <version>0.5.0</version>
+                <!--<version>${planet.decoding.version}</version>-->
+            </dependency>
+            <!--FOR LOGGING-->
+
+            <!--FOR TESTING-->
+
+        </dependencies>
+    </dependencyManagement>
+
+</project>
