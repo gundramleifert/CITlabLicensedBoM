@@ -47,7 +47,7 @@
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>util_pc</artifactId>
-                <version>0.2.0</version>
+                <version>0.3.0</version>
                 <!--<version>${planet.misc.version}</version>-->
             </dependency>
             <dependency>
