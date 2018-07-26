@@ -1,5 +1,5 @@
 # List of non-permissive libraries
-
+__Third party copyrights are property of their respective owners.__
 ### Planet AI
 ```
 <dependency>
