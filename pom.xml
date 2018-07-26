@@ -46,6 +46,12 @@
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
+                <artifactId>util_pc</artifactId>
+                <version>0.2.0</version>
+                <!--<version>${planet.misc.version}</version>-->
+            </dependency>
+            <dependency>
+                <groupId>de.planet</groupId>
                 <artifactId>itrtech</artifactId>
                 <version>0.7.0</version>
                 <!--<version>${planet.itrtech.version}</version>-->
