@@ -7,7 +7,7 @@
 
     <groupId>de.uros.citlab</groupId>
     <artifactId>licensed_bom</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>pom</packaging>
 
     <dependencyManagement>
@@ -20,7 +20,7 @@
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>globalPom</artifactId>
-                <version>1.0.58</version>
+                <version>1.0.63</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
@@ -31,12 +31,12 @@
                         <artifactId>mysql-connector</artifactId>
                     </exclusion>
                 </exclusions>
-                <version>0.15.0</version>
+                <version>0.19.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>itrtech</artifactId>
-                <version>0.7.0</version>
+                <version>0.9.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
@@ -51,12 +51,12 @@
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>langmod</artifactId>
-                <version>0.4.0</version>
+                <version>0.5.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>util</artifactId>
-                <version>0.8.0</version>
+                <version>0.9.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
@@ -66,12 +66,12 @@
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>decoding</artifactId>
-                <version>0.4.0</version>
+                <version>0.8.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>math</artifactId>
-                <version>0.3.0</version>
+                <version>0.7.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
@@ -81,17 +81,17 @@
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>imaging</artifactId>
-                <version>0.19.0</version>
+                <version>0.20.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>imaging_pc</artifactId>
-                <version>0.6.0</version>
+                <version>0.9.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>roi_core</artifactId>
-                <version>0.6.0</version>
+                <version>0.7.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
@@ -128,12 +128,12 @@
                         <artifactId>roi_postal</artifactId>
                     </exclusion>
                 </exclusions>
-                <version>0.3.0</version>
+                <version>0.6.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>tensorflow</artifactId>
-                <version>0.7.0</version>
+                <version>0.8.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
@@ -143,7 +143,7 @@
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>regexdecoding</artifactId>
-                <version>0.5.0</version>
+                <version>0.6.0</version>
             </dependency>
             <!--FOR LOGGING-->
 
