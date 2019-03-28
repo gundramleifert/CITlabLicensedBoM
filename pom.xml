@@ -7,7 +7,7 @@
 
     <groupId>de.uros.citlab</groupId>
     <artifactId>licensed_bom</artifactId>
-    <version>1.3</version>
+    <version>1.4</version>
     <packaging>pom</packaging>
 
     <dependencyManagement>
@@ -20,7 +20,7 @@
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>globalPom</artifactId>
-                <version>1.0.86</version>
+                <version>1.0.91</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
@@ -31,12 +31,12 @@
                         <artifactId>mysql-connector</artifactId>
                     </exclusion>
                 </exclusions>
-                <version>0.31.0</version>
+                <version>0.33.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>itrtech</artifactId>
-                <version>0.11.0</version>
+                <version>0.12.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
@@ -86,17 +86,17 @@
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>imaging_pc</artifactId>
-                <version>0.11.0</version>
+                <version>0.12.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>reco</artifactId>
-                <version>0.9.0</version>
+                <version>0.17.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>roi_core</artifactId>
-                <version>0.9.0</version>
+                <version>0.10.0</version>
             </dependency>
             <dependency>
                 <groupId>de.planet</groupId>
@@ -148,7 +148,7 @@
             <dependency>
                 <groupId>de.planet</groupId>
                 <artifactId>regexdecoding</artifactId>
-                <version>0.12.0</version>
+                <version>0.13.0</version>
             </dependency>
             <!--FOR LOGGING-->
 
