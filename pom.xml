@@ -7,7 +7,7 @@
 
     <groupId>de.uros.citlab</groupId>
     <artifactId>licensed_bom</artifactId>
-    <version>1.6</version>
+    <version>1.7</version>
     <packaging>pom</packaging>
 
     <dependencyManagement>
